@@ -1,4 +1,8 @@
 
 * {font-family:" Garamond"; color:white}
-
+h2{text-align:center}
+h1{text-align: center;}
+nav{ text-align:center; background-color: dimgrey; font-size: large; margin;}
 body {background-color: black;}
+.description{text-align: center;}
+ul{list-style:none; font-size: large; padding-left: 0%; }
