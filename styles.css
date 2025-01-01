@@ -1,8 +1,23 @@
 
-* {font-family:" Garamond"; color:white}
-h2{text-align:center}
-h1{text-align: center;}
-nav{ text-align:center; background-color: dimgrey; font-size: large; margin;}
+*{font-family:" Garamond"; color:white}
+
+nav{
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(105, 27, 27);
+}
+nav ul{margin:0; padding:0;}
+nav ul li{display:inline-block; list-style-type: none;}
+nav > ul > li > a {
+    color: #ffffff;
+    background-color:rgb(97, 18, 6);
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+nav.description{text-align: center;}
+
+h2{text-align:center; border: dotted; border-radius:20px; margin-top: 50px; margin-bottom: 50px}
 body {background-color: black;}
-.description{text-align: center;}
 ul{list-style:none; font-size: large; padding-left: 0%; }
