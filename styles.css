@@ -1,5 +1,5 @@
 
-*{font-family:" Garamond"; color:white}
+p,h1,h2,h3,h4,h5,li,ul,a,footer,i {color: #ffffff; text-align: center; max-width: auto;}
 
 nav{
     margin: 0;
@@ -17,7 +17,11 @@ nav > ul > li > a {
     text-decoration: none;
 }
 nav.description{text-align: center;}
-
+link{text-align: center;}
 h2{text-align:center; border: dotted; border-radius:20px; margin-top: 50px; margin-bottom: 50px}
 body {background-color: black;}
 ul{list-style:none; font-size: large; padding-left: 0%; }
+#navigation{font-size: x-large;}
+#contents{font-size: x-large}
+
+footer{background-color: rgb(105,27,27);}
