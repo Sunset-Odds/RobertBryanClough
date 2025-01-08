@@ -3,11 +3,10 @@
 
 <head id="header">
     <title> Robert Bryan Clough</title>
-    <h1 >Robert Bryan Clough</h1>
+    <h1>Robert Bryan Clough <br> <p id="title-card-subtitle"><i id="description">This page is for my current and future projects</i></p></h1>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <i id="description">This page is for my current and future projects</i>
 <nav>
 <ul>
     <li><a href="index.html">Home</a></li>
@@ -18,12 +17,13 @@
 </ul>
 </nav>  
 
-
+<div id="text-body">
 <section id="currently-reading">
     <h3>Currently Reading:</h3>
+    <small>regardless of when I've started reading, this list is currently in progress or finished in the current year <span id="current-year"></span></small>
     <ul>
         <li><s>Seminar IV</s></li>
-            <small>Not particulary a standout seminar in terms of new concepts, but a thorough dig through one of Freud's work - this time Little Hans</small>
+            <small id="indented-text">Not particulary a standout seminar in terms of new concepts, but a thorough dig through one of Freud's work - this time Little Hans</small>
         <li>Seminar V</li>
             <li>Phenomenology of Spirit</li>
         <li>Calculus : First Transcendentals</li>
@@ -39,8 +39,8 @@
         <li>For a critique of the political economy of the sign</li>
         <li>French for Reading and Translation</li>
         <li>The Peloponnesian War</li>
-        <li>The Autistic Subject On the Threshold of Language</li>
-        <small>really enjoying this one - looking forward to creating a critique of section 6, without derailing the overall project, which I see a lot of possibility for the future</small>
+        <li><s>The Autistic Subject On the Threshold of Language</s></li>
+        <small id="indented-text">really enjoying this one - looking forward to creating a critique of section 6, without derailing the overall project, which I see a lot of possibility for the future</small>
         <li>German for Reading Knowledge</li>
         <li>Neuromancer</li>
         <li>Love, Guilt and Reparation and other works 1921 - 1945</li>
@@ -52,6 +52,7 @@
         <li>Écrits</li>
         <li>Holy Bible</li>
         <li>The Structure of Scientific Revolutions</li>
+        <li>Politics (Aristotle)</li>
     </ul>
     <h3>Currently Translating:</h3>
     <ul>
@@ -59,8 +60,11 @@
         <li>Die Verwandlung</li>
     </ul>
 </section>
+</div>
 </body>
 <footer>
+    <script src="myscripts.js"></script>
+
     <small>Contact me at robertbryanclough@gmail.com <br> Copyright &copy 2025 Robert Bryan Clough </small>
 </footer>
 </html>
